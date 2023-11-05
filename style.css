@@ -1,0 +1,48 @@
+#main-nav{
+    background-color: rgb(0, 0, 0);
+    height: 108px;
+    text-align: right;
+}
+.logo-holder{
+    float: left;
+    padding-left: 0px;
+    text-align: left;
+    color: #fff;
+}
+.logo-img{
+    width: 19%;
+    border-radius: 5rem;
+}
+#main-menu{
+    list-style: none;
+}
+.main-menu-item{
+    display: inline-block;
+}
+
+.main-menu-item a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(74, 10, 90);
+    padding: 20px;
+    margin: 5px, -100px, -100px, -100px;
+    border-radius: 5px; 
+}
+.main-menu-item a:hover {background-color: #de00c0;}
+.content{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+#calculator{
+    width:200px;
+    padding:20px;
+    border:0;
+}
+#quantity{
+    border-radius: 10px;
+}
+#options{
+    border-radius: 10px;
+}
